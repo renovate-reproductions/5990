@@ -1,4 +1,4 @@
-FROM ghcr.io/umami-software/umami:postgresql-v1.37.0
+FROM ghcr.io/umami-software/umami:postgresql-v2.7.0
 RUN something
 
 FROM node:18.10.0
