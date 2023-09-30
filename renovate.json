@@ -1,6 +1,6 @@
 {
   "packageRules": [{
     "matchPackageNames": ["ghcr.io/umami-software/umami"],
-    "versionCompatibility": "^postgresql-(?<version>.*)$"
+    "versionCompatibility": "^(?<compatibility>.*)-(?<version>.*)$"
   }]
 }
