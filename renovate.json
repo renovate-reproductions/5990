@@ -5,12 +5,6 @@
       "matchPackageNames": ["ghcr.io/umami-software/umami"],
       "versionCompatibility": "^(?<compatibility>.*)-(?<version>.*)$",
       "versioning": "semver"
-    },
-    {
-      "matchDatasources": ["docker"],
-      "matchPackageNames": ["node"],
-      "versionCompatibility": "^(?<version>[^-]+)(?<compatibility>-.*)?$",
-      "versioning": "node"
     }
   ]
 }
